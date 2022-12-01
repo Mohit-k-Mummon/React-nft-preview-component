@@ -1,0 +1,45 @@
+.card__auction-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.8rem;
+    border-bottom: 1px solid #2e4058;
+    padding-bottom: 1.5rem;
+}
+
+/*************
+    Price
+*************/
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.price > div {
+    color: hsl(178, 100%, 50%);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/*************
+    Time
+*************/
+.time {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.time > p {
+    color: #93aaca;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .card__auction-info {
+        margin-top: 2.4rem;
+        padding-bottom: 2rem;
+
+    }
+}

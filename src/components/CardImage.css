@@ -1,0 +1,33 @@
+.card__img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 28rem;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.card__img-overlay {
+    background-color: rgba(0, 255, 255, 0.473);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.card__img-overlay:hover {
+    opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .card__img-container {
+        height: 30.2rem;
+    }
+}

@@ -1,0 +1,26 @@
+.card__creator-info {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 1.6rem;
+}
+
+.card__creator-info img {
+    width: 3.4rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.card__creator-info > p {
+    color: #93aaca;
+    font-size: 1.5rem;
+}
+
+.card__creator-info a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.card__creator-info a:hover {
+    color: hsl(178, 100%, 50%);
+}
